@@ -4,7 +4,7 @@ Public Class mail
 
         Try
             Dim yolla As New MailMessage
-            Dim Gonderen As String = "bilgi@sekeroglu.com.tr"
+            Dim Gonderen As String = "#######.com.tr"
             Dim web As New System.Net.WebClient
             Dim Gondere As New System.Net.Mail.MailAddress(Gonderen, MailKonusu)
             Dim Alici As New System.Net.Mail.MailAddress(Gonderilecek)
