@@ -11,7 +11,7 @@ Public Class mail
             Dim eposta As New System.Net.Mail.MailMessage(Gondere, Alici)
             eposta.IsBodyHtml = True
             eposta.Subject = MailBasligi
-            Dim mailbilgileri As New System.Net.NetworkCredential("bilgi@sekeroglu.com.tr", "w2dvq44")
+            Dim mailbilgileri As New System.Net.NetworkCredential("******", "****")
             eposta.Body = httpicerik
             Dim MailClient As New System.Net.Mail.SmtpClient()
             MailClient.Host = "smtp.turkcellsuperbulut.com" 'Smtp Adresi
